@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139091087559",
+    "firebase_url": "https://india-s-blood-bank.firebaseio.com",
+    "project_id": "india-s-blood-bank",
+    "storage_bucket": "india-s-blood-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139091087559:android:5dcb0707e3e452126b6ee2",
+        "android_client_info": {
+          "package_name": "com.example.indiasbloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139091087559-huni3mufflk2gtq77d72k0hn9gdnqubs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHO6TorAueBsbHem1j9hBO9lwJQdsBOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139091087559-huni3mufflk2gtq77d72k0hn9gdnqubs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

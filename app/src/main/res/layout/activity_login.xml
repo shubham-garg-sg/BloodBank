@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:scrollbars="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/emailIdText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:drawableLeft="@drawable/ic_username"
+        android:hint="  Email-ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:focusable="true"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_button"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:focusable="true"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

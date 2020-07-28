@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/dashboard"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="Dashboard"/>
+
+        <item android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="Privacy Policy"/>
+
+        <item android:id="@+id/terms_of_service"
+            android:icon="@drawable/ic_terms_of_service"
+            android:title="Terms of Service"/>
+
+        <item android:id="@+id/about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us"/>
+
+        <item android:id="@+id/contact_us"
+            android:icon="@drawable/ic_contact_us"
+            android:title="Contact Us"/>
+
+
+    </group>
+
+</menu>

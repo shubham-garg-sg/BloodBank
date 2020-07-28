@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">India\'s Blood Bank</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_hint">Start typing...</string>
+    <string name="donate_blood">Donate Blood</string>
+    <string name="seek_blood">Seek Blood</string>
+</resources>

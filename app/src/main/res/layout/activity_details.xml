@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start typing..."
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="GENDER"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Male/Female/Other"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="18-65"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="WEIGHT"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="50+"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HAEMOGLOBIN"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/haemoglobin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="13.5 - 17"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CONTACT NUMBER"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start typing..."
+        android:inputType="text"/>
+
+
+    ]<Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_button"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>
